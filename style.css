@@ -1,0 +1,53 @@
+img{
+    height: 100px;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.box-grid{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 18vh 64vh 18vh;
+    gap: 10px;
+    background-color: #fcdee0;
+}
+
+nav{
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+header{
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+main{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 4px
+}
+
+article{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 105px;
+    
+}
+
+footer{
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
